@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Tambah Foto </title>
+        <link rel="stylesheet" type="text/css" href="styletambahFoto.css">
+    </head>
+    <body>
+        <header>
+        <div class="header">
+            <h2> Kim's Restaurant </h2>
+        </div>
+        <div class="header">
+            <ul>
+                <li><a class="link" href="index.html">Home</a></li>
+                <li><a class="link" href="transaksi.php">Transaksi</a></li>
+                <li><a class="link" href="tambahFoto.html">Tambah Foto</a></li>
+            </ul>
+        <div>
+        </header>
+        <div id="kontainer">
+            <h3>Menambah Foto Menu</h3>
+            <table cellspacing="20px"> 
+                <form enctype="multipart/form-data" action="tambahFoto.php" method="POST">
+                <tr>
+                    <td><label><b>Foto Menu</b></label></td>
+                    <td><input type="file" name="uploadedfoto"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Upload File"></td>
+                </tr>
+                </form>
+            </table>  
+        </div>    
+       <footer>
+           <h3><div id="footer"><p align="center">Copyright&copy; Nafiatul Fadlilah</p></div></h3>
+       </footer>
+    </body>
+</html>
